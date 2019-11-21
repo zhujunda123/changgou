@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: web-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/proxy-body-size: "0" # 设置client_max_body_size为0
+  namespace: itheima-admin
+spec:
+  rules:
+  - host: hmadmin.itcast.cn
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: web-service
+          servicePort: 80

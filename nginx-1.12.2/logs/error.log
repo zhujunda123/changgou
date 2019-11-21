@@ -1,0 +1,12 @@
+2019/11/15 21:42:12 [emerg] 86284#84164: unexpected "}" in I:\leyou_soft\nginx-1.12.2/conf/nginx.conf:45
+2019/11/15 21:42:54 [emerg] 74424#87300: unexpected "}" in I:\leyou_soft\nginx-1.12.2/conf/nginx.conf:45
+2019/11/15 21:46:40 [notice] 87316#86496: signal process started
+2019/11/15 21:46:40 [error] 87316#86496: CreateFile() "I:\leyou_soft\nginx-1.12.2/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2019/11/15 21:47:00 [error] 86756#86724: *1 CreateFile() "I:/leyou_code/upload/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: image.leyou.com, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/zzz.png"
+2019/11/16 10:48:06 [notice] 21852#21924: signal process started
+2019/11/16 10:49:04 [error] 23008#18124: *1 CreateFile() "I:/leyou_code/upload/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: image.leyou.com, request: "GET /favicon.ico HTTP/1.1", host: "image.leyou.com", referrer: "http://image.leyou.com/zzz.png"
+2019/11/16 10:49:31 [error] 23008#18124: *1 directory index of "I:/leyou_code/upload/images/" is forbidden, client: 127.0.0.1, server: image.leyou.com, request: "GET /images/ HTTP/1.1", host: "image.leyou.com"
+2019/11/16 10:49:34 [error] 23008#18124: *1 CreateFile() "I:/leyou_code/upload/images/1/1" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: image.leyou.com, request: "GET /images/1/1 HTTP/1.1", host: "image.leyou.com"
+2019/11/16 10:49:37 [error] 23008#18124: *1 CreateFile() "I:/leyou_code/upload/image/1/1" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: image.leyou.com, request: "GET /image/1/1 HTTP/1.1", host: "image.leyou.com"
+2019/11/16 17:53:17 [notice] 39660#41648: signal process started
+2019/11/21 17:48:09 [notice] 6508#1844: signal process started
