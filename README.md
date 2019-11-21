@@ -1,5 +1,7 @@
 # changgou
 
+畅购商城
+
 ```
 project-changgou-shenzhen-cmm-vue-maste后台管理系统
 	npm run dev运行即可
